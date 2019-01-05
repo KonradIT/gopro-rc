@@ -11,7 +11,7 @@ const char *password = "";
 
 const uint8_t mac[6] {0xD8, 0x96, 0x85, 0x00, 0x00, 0x00}; //D8:96:85:00:00:00
 
-String GOPRO_IP = "127.0.0.1";
+String GOPRO_IP = "10.5.5.9";
 const String SHUTTER_URI = "http://" + GOPRO_IP + "/gp/gpControl/command/shutter?p=1";
 
 
